@@ -1,7 +1,14 @@
 aid: farmwise
 name: Farmwise
-description: 'Farmwise is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'FarmWise Labs is an agricultural technology company building AI-powered
+  robotics for specialty crop farming. Its flagship product, Vulcan, is an intra-row
+  weeder and precision cultivator that uses computer vision and machine learning to
+  identify and mechanically remove weeds without herbicides, covering up to three acres
+  per hour and saving growers an estimated $250+ per acre. The self-calibrating machine
+  operates in all field conditions and receives over-the-air software updates. Founded
+  in San Francisco and backed by GV (Google Ventures), FarmWise is added to the API
+  Evangelist network as a company profile; it currently publishes no public API,
+  developer portal, or specification surface.'
 url: https://raw.githubusercontent.com/api-evangelist/farmwise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,29 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://farmwise.io/assets/images/farmwise.svg
 tags:
 - Company
-- Ai
+- Agriculture
+- AgTech
+- Robotics
+- Artificial Intelligence
+- Computer Vision
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: farmwise.io
+  url: https://farmwise.io
+- type: GitHubOrganization
+  url: https://github.com/farmwise
+- type: TermsOfService
+  url: https://farmwise.io/assets/downloads/FarmwiseTOS_20240315.pdf
+- type: PrivacyPolicy
+  url: https://farmwise.io/assets/downloads/FarmWisePrivacyPolicy_20240315.pdf
+- type: DomainSecurity
+  url: security/farmwise-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
