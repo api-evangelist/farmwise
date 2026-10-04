@@ -48,7 +48,7 @@ tags:
 - AgTech
 - Robotics
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Automation
 tags_raw:
 - Company
@@ -58,6 +58,7 @@ tags_raw:
 - Artificial Intelligence
 - Computer Vision
 - Automation
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
